@@ -8,7 +8,7 @@ services:
       - GID={{ ansible_user_gid }}
     volumes:
       - {{ localtime_file }}:/etc/localtime
-      - {{ config_dir }}:/www/assets
+      - {{ config_dir }}/:/www/assets
      
     networks:
       - {{ traefik_network }}
