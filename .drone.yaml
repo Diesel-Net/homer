@@ -1,0 +1,27 @@
+---
+kind: pipeline
+type: docker
+name: deploy
+
+steps:
+  - name: deploy Homer dashboard
+    image: docker.nexus.diesel.net/drone-ansible:5.3.0
+    environment:
+      ANSIBLE_CONFIG: .ansible/ansible.cfg
+    settings:
+      galaxy: .ansible/roles/requirements.yaml
+      inventory: .ansible/inventories/production
+      playbook: .ansible/deploy.yaml
+      private_key:
+        from_secret: automation_id_rsa
+      vault_password:
+        from_secret: ansible_vault_password
+      extra_vars: version=production
+
+trigger:
+  event:
+    - push
+  branch:
+    - development
+
+...

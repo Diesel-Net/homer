@@ -1,0 +1,27 @@
+version: '3.8'
+services: 
+
+  landing:
+    image: b4bz/homer:latest
+    environment:
+      - UID={{ ansible_user_uid }}
+      - GID={{ ansible_user_gid }}
+    volumes:
+      - {{ localtime_file }}:/etc/localtime
+      - {{ config_dir }}:/www:assets
+     
+    networks:
+      - {{ traefik_network }}
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.http.services.{{ repository }}.loadbalancer.server.port=5800
+        - traefik.http.routers.{{ repository }}.rule=Host(`{{ host }}`)
+        - traefik.http.routers.{{ repository }}.service={{ repository }}
+        - traefik.http.routers.{{ repository }}.tls.certresolver=step-ca
+
+
+networks:
+  {{ traefik_network }}:
+    external: true
+    name: {{ traefik_network }}
