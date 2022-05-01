@@ -7,7 +7,7 @@ services:
       #- UID={{ ansible_user_uid }}
       #- GID={{ ansible_user_gid }}
       #- INIT_ASSETS=0
-    user: '{{ ansible_user_uid }}'
+    #user: '{{ ansible_user_uid }}'
     volumes:
       - {{ localtime_file }}:/etc/localtime
       - {{ config_dir }}/:/www/assets:rw
