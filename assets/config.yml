@@ -4,7 +4,7 @@
 
 title: "Demo dashboard"
 subtitle: "Homer"
-logo: "logo.png"
+logo: "assets/images/kiwi-logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
