@@ -2,10 +2,10 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: "diesel.net"
-subtitle: "Kiwi Labs"
-logo: "assets/images/kiwi-logo.png"
-# icon: "fas fa-skull-crossbones" # Optional icon
+title: diesel.net
+subtitle: Home
+#logo: "assets/images/kiwi-logo.png"
+icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true # set false if you want to hide it.
 footer: |
