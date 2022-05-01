@@ -4,8 +4,8 @@ services:
   landing:
     image: b4bz/homer:latest
     environment:
-      - UID={{ ansible_user_uid }}
-      - GID={{ ansible_user_gid }}
+      #- UID={{ ansible_user_uid }}
+      #- GID={{ ansible_user_gid }}
       #- INIT_ASSETS=0
     volumes:
       - {{ localtime_file }}:/etc/localtime
@@ -20,7 +20,6 @@ services:
         - traefik.http.routers.{{ repository }}.rule=Host(`{{ host }}`)
         - traefik.http.routers.{{ repository }}.service={{ repository }}
         - traefik.http.routers.{{ repository }}.tls.certresolver=step-ca
-
 
 networks:
   {{ traefik_network }}:
