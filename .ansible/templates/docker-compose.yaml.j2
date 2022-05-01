@@ -3,10 +3,10 @@ services:
 
   landing:
     image: b4bz/homer:22.02.2
-    #environment:
+    environment:
       #- UID={{ ansible_user_uid }}
       #- GID={{ ansible_user_gid }}
-      #- INIT_ASSETS=0
+      - INIT_ASSETS=0
     volumes:
       - {{ localtime_file }}:/etc/localtime
       - {{ config_dir }}/:/www/assets:rw
