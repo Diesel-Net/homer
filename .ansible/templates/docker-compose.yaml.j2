@@ -6,9 +6,10 @@ services:
     environment:
       - UID={{ ansible_user_uid }}
       - GID={{ ansible_user_gid }}
+      #- INIT_ASSETS=0
     volumes:
       - {{ localtime_file }}:/etc/localtime
-      - {{ config_dir }}/:/www/assets
+      - {{ config_dir }}/:/www/assets:rw
      
     networks:
       - {{ traefik_network }}
