@@ -9,7 +9,7 @@ services:
       #- INIT_ASSETS=0
     volumes:
       - {{ localtime_file }}:/etc/localtime
-      #- {{ config_dir }}/:/www/assets:rw
+      - {{ config_dir }}/:/www/assets:rw
      
     networks:
       - {{ traefik_network }}
