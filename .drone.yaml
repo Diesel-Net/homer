@@ -3,6 +3,9 @@ kind: pipeline
 type: docker
 name: deploy
 
+concurrency:
+  limit: 1
+
 steps:
   - name: deploy Homer dashboard
     image: docker.nexus.diesel.net/drone-ansible:5.3.0
