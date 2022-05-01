@@ -9,10 +9,13 @@
         name: common
         tasks_from: make_config_dir
 
-    # - name: 'Copy custom assets into {{ config_dir }}'
-    #   copy:
-    #     src: '{{ playbook_dir }}/../assets/'
-    #     dest: '{{ config_dir }}' 
+    - name: 'Sync custom assets into {{ config_dir }}'
+      synchronize:
+        mode: push
+        dirs: yes
+        delete: yes
+        src: '{{ playbook_dir }}/../assets/'
+        dest: '{{ config_dir }}' 
 
     - include_role:
         name: docker
