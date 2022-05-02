@@ -158,7 +158,7 @@ services:
         target: "_blank" # open in new tab
 
 
-  - name: Montoring & Tooling
+  - name: Tools & Monitoring
     icon: fas fa-chart-area
     items:
 
@@ -184,7 +184,7 @@ services:
         target: "_blank" # open in new tab
 
 
-  - name: Applications & Services
+  - name: Apps & Services
     icon: fas fa-cloud
     items:
       - name: Bitwarden
