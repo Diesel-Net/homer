@@ -78,10 +78,10 @@ message:
   # refreshInterval: 10000 # Optional: time interval to refresh message
   
   # Real example using chucknorris.io for showing Chuck Norris facts as messages:
-  url: https://api.chucknorris.io/jokes/random
+  url: https://icanhazdadjoke.com/
   mapping:
-    title: 'id'
-    content: 'value'
+    title: id
+    content: joke
   refreshInterval: 10000
   style: "is-warning"
   title: "Optional message!"
