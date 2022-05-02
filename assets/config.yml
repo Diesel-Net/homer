@@ -275,14 +275,14 @@ services:
     icon: fas fa-industry
     items:
 
-      - name: kiwi-labs.net
+      - name: kiwi-labs.net (external)
         logo: assets/images/kiwi-labs.png
         subtitle: kiwi-labs.net
         tag: kiwi-labs
         url: https://kiwi-labs.net
         target: "_blank" # open in new tab
 
-      - name: kiwi-labs.net
+      - name: kiwi-labs.net (internal)
         logo: assets/images/kiwi-labs.png
         subtitle: prod.diesel.net
         tag: kiwi-labs
@@ -295,3 +295,24 @@ services:
         tag: traefik
         url: https://traefik.prod.diesel.net
         target: "_blank" # open in new tab  
+
+      - name: Traefik (drone)
+        logo: assets/images/traefik.png
+        subtitle: Reverse Proxy
+        tag: traefik
+        url: https://traefik.drone.diesel.net
+        target: "_blank" # open in new tab  
+
+      - name: Traefik (tools)
+        logo: assets/images/traefik.png
+        subtitle: Reverse Proxy
+        tag: traefik
+        url: https://traefik.tools.diesel.net
+        target: "_blank" # open in new tab  
+
+      - name: Traefik (quadro)
+        logo: assets/images/traefik.png
+        subtitle: Reverse Proxy
+        tag: traefik
+        url: https://traefik.quadro.diesel.net
+        target: "_blank" # open in new tab 
