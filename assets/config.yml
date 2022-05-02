@@ -10,7 +10,7 @@ logo: "assets/images/kiwi-labs.png"
 header: true # set false if you want to hide it.
 footer: |
   <p>
-    Edit on
+    View on
     <a href="https://github.com/Diesel-Net/homer">
       <i class="fab fa-github-alt"></i>
     </a>
@@ -114,6 +114,12 @@ services:
     icon: fas fa-network-wired
     items:
 
+      - name: Cloudflare
+        logo: assets/images/cloudflare.svg
+        subtitle: Registrar, DNS, and Content Delivery Network
+        tag: cloudflare
+        url: https://dash.cloudflare.com
+
       - name: Proxmox VE
         logo: assets/images/pve.png
         subtitle: Virtual Environment
@@ -139,15 +145,15 @@ services:
         tag: wap
         url: https://wap.diesel.net
 
-  - name: Internal Services
+      - name: Synology DSM
+        logo: assets/images/synology.png
+        subtitle: Network Attached Storage
+        tag: nas
+        url: https://nas.kiwi-labs.net:5001
+
+  - name: Services
     icon: fas fa-cloud
     items:
-
-      - name: Cloudflare
-        logo: assets/images/cloudflare.svg
-        subtitle: Registrar, DNS, and Content Delivery Network
-        tag: cloudflare
-        url: https://dash.cloudflare.com
 
       - name: Plex
         logo: assets/images/pms.png
@@ -155,21 +161,21 @@ services:
         tag: plex
         url: https://app.plex.tv
 
-  - name: External Services
+  - name: Communities
     icon: fas fa-cloud
     items:
 
-      - name: Cloudflare
-        logo: assets/images/cloudflare.svg
-        subtitle: Registrar, DNS, and Content Delivery Network
-        tag: cloudflare
-        url: https://dash.cloudflare.com
+      - name: GitHub
+        logo: assets/images/octocat.png
+        subtitle: Source Code Management
+        tag: github
+        url: https://github.com
 
-      - name: Plex
-        logo: assets/images/pms.png
-        subtitle: Stream Movies and TV
-        tag: plex
-        url: https://app.plex.tv
+      - name: Reddit
+        logo: assets/images/reddit.png
+        subtitle: The Front Page of the Internet
+        tag: reddit
+        url: https://reddit.com
 
   - name: Montoring
     icon: fas fa-chart-area
