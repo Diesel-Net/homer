@@ -115,8 +115,9 @@ services:
         url: "#"
 
   - name: Montoring
-    icon: fas fa-monitor-heart-rate
+    icon: fas fa-network-wired
     items:
+      
       - name: Proxmox Virtual Environment
         logo: assets/images/pve.png
         subtitle: Hypervisor
