@@ -162,7 +162,7 @@ services:
         url: https://app.plex.tv
 
   - name: Communities
-    icon: fas fa-cloud
+    icon: fas fa-users
     items:
 
       - name: GitHub
