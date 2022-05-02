@@ -138,7 +138,7 @@ services:
 
       - name: Cisco IOS
         logo: assets/images/cisco.png
-        subtitle: Managed Switch/Bridge
+        subtitle: Managed Switch
         tag: switch
         url: https://switch.kiwi-labs.net
         target: "_blank" # open in new tab
