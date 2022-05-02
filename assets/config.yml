@@ -92,8 +92,8 @@ services:
         url: https://pfsense.diesel.net:8443
 
       - name: Cisco SG250-08HP
-        #logo: assets/images/switch.png
-        icon: fas fa-switch
+        logo: assets/images/switch.png
+        #icon: fas fa-switch
         subtitle: Packet Switching
         tag: asdf
         url: https://switch.kiwi-labs.net
@@ -115,7 +115,7 @@ services:
         url: "#"
 
   - name: Montoring
-    icon: fa-solid fa-monitor-waveform
+    icon: fas fa-monitor-heart-rate
     items:
       - name: Proxmox Virtual Environment
         logo: assets/images/pve.png
