@@ -236,12 +236,12 @@ services:
         target: "_blank" # open in new tab   
 
   - name: Development
-    icon: fas fa-users
+    icon: fas fa-code
     items:
 
       - name: kiwi-labs.net
         logo: assets/images/kiwi-labs.png
-        subtitle: Landing page
+        subtitle: dev.diesel.net
         tag: kiwi-labs
         url: https://dev.diesel.net
         target: "_blank" # open in new tab
@@ -254,37 +254,44 @@ services:
         target: "_blank" # open in new tab  
 
   - name: Test
-    icon: fas fa-users
+    icon: fas fa-vial
     items:
 
-      - name: GitHub
-        logo: assets/images/octocat.png
-        subtitle: Source Code Management
-        tag: github
-        url: https://github.com
+      - name: kiwi-labs.net
+        logo: assets/images/kiwi-labs.png
+        subtitle: test.diesel.net
+        tag: kiwi-labs
+        url: https://test.diesel.net
         target: "_blank" # open in new tab
 
-      - name: Reddit
-        logo: assets/images/reddit.png
-        subtitle: The Front Page of the Internet
-        tag: reddit
-        url: https://reddit.com
+      - name: Traefik
+        logo: assets/images/traefik.png
+        subtitle: Reverse Proxy
+        tag: traefik
+        url: https://traefik.test.diesel.net
         target: "_blank" # open in new tab  
 
   - name: Production
-    icon: fas fa-users
+    icon: fas fa-industry
     items:
 
-      - name: GitHub
-        logo: assets/images/octocat.png
-        subtitle: Source Code Management
-        tag: github
-        url: https://github.com
+      - name: kiwi-labs.net
+        logo: assets/images/kiwi-labs.png
+        subtitle: kiwi-labs.net
+        tag: kiwi-labs
+        url: https://kiwi-labs.net
         target: "_blank" # open in new tab
 
-      - name: Reddit
-        logo: assets/images/reddit.png
-        subtitle: The Front Page of the Internet
-        tag: reddit
-        url: https://reddit.com
+      - name: kiwi-labs.net
+        logo: assets/images/kiwi-labs.png
+        subtitle: prod.diesel.net
+        tag: kiwi-labs
+        url: https://prod.diesel.net
+        target: "_blank" # open in new tab
+
+      - name: Traefik
+        logo: assets/images/traefik-2.png
+        subtitle: Reverse Proxy
+        tag: traefik
+        url: https://traefik.prod.diesel.net
         target: "_blank" # open in new tab  
