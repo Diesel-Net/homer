@@ -75,14 +75,46 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: Applications
+  - name: Core Infrastructure
+    icon: fas fa-cloud
+    items:
+
+      - name: Proxmox VE
+        logo: assets/images/pve.png
+        subtitle: Virtual Environment
+        tag: pve
+        url: https://pve.diesel.net:8006
+
+      - name: PfSense
+        logo: assets/images/pfsense.png
+        subtitle: Plain Fucking Sense -
+        tag: pfsense
+        url: "#"
+
+  - name: Hosted Services
+    icon: fa-solid fa-network-wired
+    items:
+
+      - name: Proxmox Virtual Environment
+        logo: assets/images/pve.png
+        subtitle: Hypervisor
+        tag: pve
+        url: https://pve.diesel.net:8006
+
+      - name: "Another one"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Another application"
+        tag: app
+        url: "#"
+
+  - name: Hosted Services
     icon: fas fa-cloud
     items:
       - name: Proxmox Virtual Environment
         logo: assets/images/pve.png
         subtitle: Hypervisor
         tag: pve
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: https://pve.diesel.net:8006
         #target: "_blank" # optional html a tag target attribute
       - name: "Another one"
         logo: "assets/tools/sample2.png"
