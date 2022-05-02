@@ -115,7 +115,7 @@ services:
         url: "#"
 
   - name: Montoring
-    icon: fas fa-monitor-heart-rate
+    icon: fas fa-cctv
     items:
 
       - name: Proxmox Virtual Environment
