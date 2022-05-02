@@ -58,7 +58,7 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  
+
   - name: Kiwi Labs
     icon: fab fa-github
     url: https://github.com/Diesel-Net
@@ -117,7 +117,7 @@ services:
         url: "#"
 
   - name: Montoring
-    icon: fas fa-cctv
+    icon: fas fa-chart-area
     items:
 
       - name: ntopng
