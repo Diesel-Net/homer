@@ -4,8 +4,8 @@
 
 title: diesel.net
 subtitle: Home
-#logo: "assets/images/kiwi-logo.png"
-icon: "fas fa-skull-crossbones" # Optional icon
+logo: "assets/images/kiwi-logo.png"
+#icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true # set false if you want to hide it.
 footer: |
@@ -45,36 +45,38 @@ colors:
     link-hover: "#ffdd57"
 
 # Optional message
-message:
-  #url: https://b4bz.io
-  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
-  icon: "fa fa-grin"
-  content: |
-    This is a dummy homepage demo. <br /> 
-    Find more information on 
-    <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>
+# message:
+#   #url: https://b4bz.io
+#   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+#   title: "Demo !"
+#   icon: "fa fa-grin"
+#   content: |
+#     This is a dummy homepage demo. <br /> 
+#     Find more information on 
+#     <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
+  
   - name: Kiwi Labs
     icon: fab fa-github
     url: https://github.com/Diesel-Net
-    #target: "_blank" # optional html a tag target attribute
+
   - name: Wikipedia
     icon: fas fa-book
     url: https://www.wikipedia.org/
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
-  - name: Second page!
-    icon: fas fa-file-alt
-    url: "#additional-page"
+  # - name: Second page!
+  #   icon: fas fa-file-alt
+  #   url: "#additional-page"
 
 # Services
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+
   - name: Core Infrastructure
     icon: fas fa-cloud
     items:
@@ -87,7 +89,7 @@ services:
 
       - name: PfSense
         logo: assets/images/pfsense.png
-        subtitle: Firewall & Routing
+        subtitle: Firewall & Router
         tag: pfsense
         url: https://pfsense.diesel.net:8443
 
@@ -118,12 +120,12 @@ services:
     icon: fas fa-cctv
     items:
 
-      - name: Proxmox Virtual Environment
+      - name: ntopng
         logo: assets/images/pve.png
-        subtitle: Hypervisor
+        subtitle: Network Traffic Analysis and Flow Collection
         tag: pve
         url: https://pve.diesel.net:8006
-        #target: "_blank" # optional html a tag target attribute
+   
       - name: "Another one"
         logo: "assets/tools/sample2.png"
         subtitle: "Another application"
