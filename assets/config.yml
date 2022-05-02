@@ -157,6 +157,19 @@ services:
         url: https://nas.kiwi-labs.net:5001
         target: "_blank" # open in new tab
 
+
+  - name: Montoring
+    icon: fas fa-chart-area
+    items:
+
+      - name: ntopng
+        logo: assets/images/ntop.png
+        subtitle: Network Traffic Analysis and Flow Collection
+        tag: ntop
+        url: https://pfsense.diesel.net:3000/
+        target: "_blank" # open in new tab
+
+
   - name: Services
     icon: fas fa-cloud
     items:
@@ -167,6 +180,7 @@ services:
         tag: plex
         url: https://app.plex.tv
         target: "_blank" # open in new tab
+
 
   - name: Communities
     icon: fas fa-users
@@ -184,16 +198,4 @@ services:
         subtitle: The Front Page of the Internet
         tag: reddit
         url: https://reddit.com
-        target: "_blank" # open in new tab
-
-  - name: Montoring
-    icon: fas fa-chart-area
-    items:
-
-      - name: ntopng
-        logo: assets/images/ntop.png
-        subtitle: Network Traffic Analysis and Flow Collection
-        tag: ntop
-        url: https://pfsense.diesel.net:3000/
-        target: "_blank" # open in new tab
-   
+        target: "_blank" # open in new tab   
