@@ -87,12 +87,12 @@ services:
 
       - name: PfSense
         logo: assets/images/pfsense.png
-        subtitle: Plain Fucking Sense -
+        subtitle: Firewall
         tag: pfsense
-        url: "#"
+        url: https://pfsense.diesel.net:8443
 
   - name: Hosted Services
-    icon: fa-solid fa-network-wired
+    icon: fas fa-network-wired
     items:
 
       - name: Proxmox Virtual Environment
