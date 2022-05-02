@@ -115,7 +115,7 @@ services:
         url: "#"
 
   - name: Montoring
-    icon: fas fa-monitor-waveform
+    icon: fa-solid fa-monitor-waveform
     items:
       - name: Proxmox Virtual Environment
         logo: assets/images/pve.png
