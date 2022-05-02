@@ -78,12 +78,12 @@ message:
   # refreshInterval: 10000 # Optional: time interval to refresh message
   
   # Real example using chucknorris.io for showing Chuck Norris facts as messages:
-  url: https://icanhazdadjoke.com/
+  url: https://api.chucknorris.io/jokes/random
   mapping:
-    title: id
-    content: joke
+    title: Chuck Norris Says...
+    content: value
   refreshInterval: 10000
-  style: "is-warning"
+  #style: "is-warning"
   title: "Optional message!"
   icon: "fa fa-exclamation-triangle"
   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -119,6 +119,7 @@ services:
         subtitle: Virtual Environment
         tag: pve
         url: https://pve.diesel.net:8006
+        target: "_blank" # optional html tag target attribute
 
       - name: PfSense
         logo: assets/images/pfsense.png
