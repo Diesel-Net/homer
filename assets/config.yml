@@ -116,13 +116,13 @@ services:
 
       - name: Cloudflare
         logo: assets/images/cloudflare.svg
-        subtitle: Registrar, DNS, and Content Delivery Network
+        subtitle: Domain Registrar, DNS, and Content Delivery Network
         tag: cloudflare
         url: https://dash.cloudflare.com
 
       - name: Proxmox VE
         logo: assets/images/pve.png
-        subtitle: Virtual Environment
+        subtitle: Hyperconverged Infrastructure
         tag: pve
         url: https://pve.diesel.net:8006
         target: "_blank" # optional html tag target attribute
@@ -133,13 +133,13 @@ services:
         tag: pfsense
         url: https://pfsense.diesel.net:8443
 
-      - name: Cisco SG250-08HP
+      - name: Cisco IOS
         logo: assets/images/cisco.png
-        subtitle: Packet Switch
+        subtitle: Managed Switch/Bridge
         tag: switch
         url: https://switch.kiwi-labs.net
 
-      - name: RT-AX88U
+      - name: AsusWRT-Merlin
         logo: assets/images/merlin.png
         subtitle: Wireless Access Point
         tag: wap
