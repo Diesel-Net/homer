@@ -82,7 +82,7 @@ services:
     items:
 
       - name: Proxmox VE
-        logo: assets/images/proxmox.png
+        logo: assets/images/pve.png
         subtitle: Virtual Environment
         tag: pve
         url: https://pve.diesel.net:8006
