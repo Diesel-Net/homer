@@ -54,7 +54,7 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.1)
     link: "#3273dc"
     link-hover: "#363636"
-    background-image: ../assets/images/kiwi-labs-light-2.png
+    background-image: ../assets/images/kiwi-labs-light-3.png
   dark:
     highlight-primary: "#2b2b2b" #4a3418 #474826
     highlight-secondary: "#414233" #474826 #2b2b2b
