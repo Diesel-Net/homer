@@ -158,20 +158,8 @@ services:
         target: "_blank" # open in new tab
 
 
-  - name: Montoring
+  - name: Montoring & Tooling
     icon: fas fa-chart-area
-    items:
-
-      - name: ntopng
-        logo: assets/images/ntop.png
-        subtitle: Traffic Analysis and Flow Collection
-        tag: ntop
-        url: https://pfsense.diesel.net:3000/
-        target: "_blank" # open in new tab
-
-
-  - name: Services
-    icon: fas fa-cloud
     items:
 
       - name: Drone CI
@@ -188,6 +176,17 @@ services:
         url: https://nexus.diesel.net
         target: "_blank" # open in new tab
 
+      - name: ntopng
+        logo: assets/images/ntop.png
+        subtitle: Traffic Analysis and Flow Collection
+        tag: ntop
+        url: https://pfsense.diesel.net:3000/
+        target: "_blank" # open in new tab
+
+
+  - name: Applications & Services
+    icon: fas fa-cloud
+    items:
       - name: Bitwarden
         logo: assets/images/bitwarden.png
         subtitle: Password Manager
