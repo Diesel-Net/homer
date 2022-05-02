@@ -68,7 +68,7 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link: "#3273dc"
     link-hover: "#ffdd57"
-    background-image: "../assets/kiwi-labs-background.jpg"
+    background-image: "../assets/images/kiwi-labs-background.jpg"
 
 # Optional message
 message:
