@@ -188,6 +188,13 @@ services:
         url: https://nexus.diesel.net
         target: "_blank" # open in new tab
 
+      - name: Bitwarden
+        logo: assets/images/bitwarden.png
+        subtitle: Password Manager
+        tag: bitwarden
+        url: https://bitwarden.diesel.net
+        target: "_blank" # open in new tab
+
       - name: Plex
         logo: assets/images/pms.png
         subtitle: Stream Movies and TV
@@ -227,3 +234,57 @@ services:
         tag: reddit
         url: https://reddit.com
         target: "_blank" # open in new tab   
+
+  - name: Development
+    icon: fas fa-users
+    items:
+
+      - name: kiwi-labs.net
+        logo: assets/images/kiwi-labs.png
+        subtitle: Landing page
+        tag: kiwi-labs
+        url: https://dev.diesel.net
+        target: "_blank" # open in new tab
+
+      - name: Traefik
+        logo: assets/images/traefik.png
+        subtitle: Reverse Proxy
+        tag: traefik
+        url: https://traefik.dev.diesel.net
+        target: "_blank" # open in new tab  
+
+  - name: Test
+    icon: fas fa-users
+    items:
+
+      - name: GitHub
+        logo: assets/images/octocat.png
+        subtitle: Source Code Management
+        tag: github
+        url: https://github.com
+        target: "_blank" # open in new tab
+
+      - name: Reddit
+        logo: assets/images/reddit.png
+        subtitle: The Front Page of the Internet
+        tag: reddit
+        url: https://reddit.com
+        target: "_blank" # open in new tab  
+
+  - name: Production
+    icon: fas fa-users
+    items:
+
+      - name: GitHub
+        logo: assets/images/octocat.png
+        subtitle: Source Code Management
+        tag: github
+        url: https://github.com
+        target: "_blank" # open in new tab
+
+      - name: Reddit
+        logo: assets/images/reddit.png
+        subtitle: The Front Page of the Internet
+        tag: reddit
+        url: https://reddit.com
+        target: "_blank" # open in new tab  
