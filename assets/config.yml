@@ -120,37 +120,42 @@ services:
         subtitle: Domain Registrar, DNS, and Content Delivery Network
         tag: cloudflare
         url: https://dash.cloudflare.com
+        target: "_blank" # open in new tab
 
       - name: Proxmox VE
         logo: assets/images/pve.png
         subtitle: Hyperconverged Infrastructure
         tag: pve
         url: https://pve.diesel.net:8006
-        target: "_blank" # optional html tag target attribute
+        target: "_blank" # open in new tab
 
       - name: PfSense
         logo: assets/images/pfsense.png
         subtitle: Firewall, Router, Proxy, etc.
         tag: pfsense
         url: https://pfsense.diesel.net:8443
+        target: "_blank" # open in new tab
 
       - name: Cisco IOS
         logo: assets/images/cisco.png
         subtitle: Managed Switch/Bridge
         tag: switch
         url: https://switch.kiwi-labs.net
+        target: "_blank" # open in new tab
 
       - name: AsusWRT-Merlin
         logo: assets/images/merlin.png
         subtitle: Wireless Access Point
         tag: wap
         url: https://wap.diesel.net
+        target: "_blank" # open in new tab
 
       - name: Synology DSM
         logo: assets/images/synology.png
         subtitle: Network Attached Storage
         tag: nas
         url: https://nas.kiwi-labs.net:5001
+        target: "_blank" # open in new tab
 
   - name: Services
     icon: fas fa-cloud
@@ -161,6 +166,7 @@ services:
         subtitle: Stream Movies and TV
         tag: plex
         url: https://app.plex.tv
+        target: "_blank" # open in new tab
 
   - name: Communities
     icon: fas fa-users
@@ -171,12 +177,14 @@ services:
         subtitle: Source Code Management
         tag: github
         url: https://github.com
+        target: "_blank" # open in new tab
 
       - name: Reddit
         logo: assets/images/reddit.png
         subtitle: The Front Page of the Internet
         tag: reddit
         url: https://reddit.com
+        target: "_blank" # open in new tab
 
   - name: Montoring
     icon: fas fa-chart-area
@@ -187,4 +195,5 @@ services:
         subtitle: Network Traffic Analysis and Flow Collection
         tag: ntop
         url: https://pfsense.diesel.net:3000/
+        target: "_blank" # open in new tab
    
