@@ -9,11 +9,30 @@ logo: "assets/images/kiwi-logo.png"
 
 header: true # set false if you want to hide it.
 footer: |
-  <p>Edit on <a href="https://github.com/Diesel-Net/homer"><i class="fab fa-github-alt"></i></a></p>
+  <p>
+    Edit on
+    <a href="https://github.com/Diesel-Net/homer">
+      <i class="fab fa-github-alt"></i>
+    </a>
+  </p>
 
-# Optional theme customization
-theme: default
+columns: "3" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+connectivityCheck: true # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example)
+
+# Optional: Proxy / hosting option
+proxy:
+  useCredentials: false # send cookies & authorization headers when fetching service specific data. Set to `true` if you use an authentication proxy. Can be overrided on service level. 
+
+# Set the default layout and color scheme
+defaults:
+  layout: columns # Either 'columns', or 'list'
+  colorTheme: auto # One of 'auto', 'light', or 'dark'
+
+# Optional theming
+theme: default # 'default' or one of the themes available in 'src/assets/themes'.
+
 colors:
+
   light:
     highlight-primary: "#3367d6"
     highlight-secondary: "#4285f4"
@@ -27,6 +46,7 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.1)
     link: "#3273dc"
     link-hover: "#363636"
+
   dark:
     highlight-primary: "#3367d6"
     highlight-secondary: "#4285f4"
