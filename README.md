@@ -4,10 +4,10 @@
 [Homer Dashboard](https://github.com/bastienwirtz/homer) - configured as internal landing page
 
 
-## Custom Themes
+## Custom Configuration
 
-#### Kiwi-Labs Dark
+#### Dark
 ![screenshots](screenshots/dark-theme.png)
 
-#### Kiwi-Labs Light
+#### Light
 ![screenshots](screenshots/light-theme.png)
