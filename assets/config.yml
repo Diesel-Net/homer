@@ -9,10 +9,7 @@ logo: "assets/images/kiwi-logo.png"
 
 header: true # set false if you want to hide it.
 footer: |
-  <p>Created with <span class="has-text-danger">❤️</span> with 
-  <a href="https://bulma.io/">bulma</a>, 
-  <a href="https://vuejs.org/">vuejs</a> & 
-  <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>
+  <p>Edit on <a href="https://github.com/Diesel-Net/homer"><i class="fab fa-github-alt"></i></a></p>
 
 # Optional theme customization
 theme: default
@@ -89,7 +86,7 @@ services:
 
       - name: PfSense
         logo: assets/images/pfsense.png
-        subtitle: Firewall
+        subtitle: Firewall, Router, Proxy, etc.
         tag: pfsense
         url: https://pfsense.diesel.net:8443
 
