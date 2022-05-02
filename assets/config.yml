@@ -84,9 +84,9 @@ message:
     content: value
   refreshInterval: 10000
   #style: "is-warning"
-  title: "Optional message!"
-  icon: "fa fa-exclamation-triangle"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  #title: "Optional message!"
+  #icon: "fa fa-exclamation-triangle"
+  content: ''
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -138,6 +138,22 @@ services:
         subtitle: Wireless Access Point
         tag: wap
         url: https://wap.diesel.net
+
+  - name: Internal Services
+    icon: fas fa-cloud
+    items:
+
+      - name: Cloudflare
+        logo: assets/images/cloudflare.svg
+        subtitle: Registrar, DNS, and Content Delivery Network
+        tag: cloudflare
+        url: https://dash.cloudflare.com
+
+      - name: Plex
+        logo: assets/images/pms.png
+        subtitle: Stream Movies and TV
+        tag: plex
+        url: https://app.plex.tv
 
   - name: External Services
     icon: fas fa-cloud
