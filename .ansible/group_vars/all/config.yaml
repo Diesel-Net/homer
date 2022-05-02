@@ -1,1 +1,3 @@
-host: diesel.net
+hosts: 
+  - diesel.net
+  - home.diesel.net
