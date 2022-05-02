@@ -117,7 +117,7 @@ services:
 
       - name: Cloudflare
         logo: assets/images/cloudflare.svg
-        subtitle: Domain Registrar, DNS, and Content Delivery Network
+        subtitle: Registrar, DNS, and CDN
         tag: cloudflare
         url: https://dash.cloudflare.com
         target: "_blank" # open in new tab
@@ -164,7 +164,7 @@ services:
 
       - name: ntopng
         logo: assets/images/ntop.png
-        subtitle: Network Traffic Analysis and Flow Collection
+        subtitle: Traffic Analysis and Flow Collection
         tag: ntop
         url: https://pfsense.diesel.net:3000/
         target: "_blank" # open in new tab
@@ -176,7 +176,7 @@ services:
 
       - name: Drone CI
         logo: assets/images/drone.png
-        subtitle: Continuos Integration, Continuos Delivery
+        subtitle: Continuos Integration
         tag: drone
         url: https://drone.kiwi-labs.net
         target: "_blank" # open in new tab
