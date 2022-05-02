@@ -100,7 +100,7 @@ services:
         url: https://switch.kiwi-labs.net
 
       - name: RT-AX88U
-        logo: assets/images/cisco.png
+        logo: assets/images/merlin.png
         subtitle: Wireless Access Point
         tag: wap
         url: https://wap.diesel.net
