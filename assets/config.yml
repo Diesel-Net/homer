@@ -110,7 +110,7 @@ services:
     items:
 
       - name: Cloudflare
-        logo: assets/images/cloudflare.png
+        logo: assets/images/cloudflare.svg
         subtitle: Registrar, DNS, and Content Delivery Network
         tag: pve
         url: https://dash.cloudflare.com
