@@ -65,9 +65,9 @@ colors:
     text-header: "#ffffff"
     text-title: "#fafafa"
     text-subtitle: "#f5f5f5"
-    card-shadow: rgba(0, 0, 0, 0.4)
+    card-shadow: rgba(0, 0, 0, 0.8)
     link: "#3273dc"
-    link-hover: "#363636"
+    link-hover: "#8cad27"
     background-image: ../assets/images/kiwi-labs-dark.png
 
 # Optional message
