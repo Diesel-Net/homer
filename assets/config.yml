@@ -57,7 +57,7 @@ colors:
     background-image: ../assets/images/kiwi-labs-light.jpg
   dark:
     highlight-primary: "#2b2b2b" #4a3418 #474826
-    highlight-secondary: "#474826" #2b2b2b
+    highlight-secondary: "#414233" #474826 #2b2b2b
     highlight-hover: "#8cad27"
     background: "#131313"
     card-background: "#2b2b2b"
