@@ -181,6 +181,13 @@ services:
         url: https://app.plex.tv
         target: "_blank" # open in new tab
 
+      - name: Handbrake
+        logo: assets/images/handbrake.png
+        subtitle: Video Trancoder
+        tag: handbrake
+        url: https://handbrake.diesel.net
+        target: "_blank" # open in new tab
+
 
   - name: Communities
     icon: fas fa-users
