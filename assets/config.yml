@@ -43,7 +43,7 @@ theme: default # 'default' or one of the themes available in 'src/assets/themes'
 colors:
   light:
     highlight-primary: "#ffffff"
-    highlight-secondary: "#b8d094" #4285f4
+    highlight-secondary: "b4de47" #b8d094 #4285f4
     highlight-hover: "#ffffff"
     background: "#f5f5f5"
     card-background: "#ffffff"
