@@ -1,0 +1,4 @@
+.ansible/roles/common
+.ansible/roles/docker
+.ansible/roles/traefik
+**.DS_Store

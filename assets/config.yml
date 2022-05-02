@@ -1,0 +1,190 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: diesel.net
+subtitle: Home
+logo: "assets/images/kiwi-labs.png"
+#icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true # set false if you want to hide it.
+footer: |
+  <p>
+    
+    <a href="https://github.com/Diesel-Net/homer">
+      View on &nbsp;
+      <i class="fab fa-github-alt"></i>
+    </a>
+  </p>
+
+columns: auto # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+connectivityCheck: true # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example)
+
+# Optional: Proxy / hosting option
+proxy:
+  useCredentials: false # send cookies & authorization headers when fetching service specific data. Set to `true` if you use an authentication proxy. Can be overrided on service level. 
+
+# Set the default layout and color scheme
+defaults:
+  layout: columns # Either 'columns', or 'list'
+  colorTheme: auto # One of 'auto', 'light', or 'dark'
+
+# Optional theming
+theme: default # 'default' or one of the themes available in 'src/assets/themes'.
+
+# Optional custom stylesheet
+# Will load custom CSS files. Especially useful for custom icon sets.
+# stylesheet:
+#   - "assets/custom.css"
+
+# Here is the exhaustive list of customization parameters
+# However all value are optional and will fallback to default if not set.
+# if you want to change only some of the colors, feel free to remove all unused key.
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#424242"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+    background-image: "assets/your/light/bg.png"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+    background-image: "../assets/images/kiwi-labs-background.jpg"
+
+# Optional message
+message:
+  # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
+  # mapping: # allows to map fields from the remote format to the one expected by Homer
+  #   title: 'id' # use value from field 'id' as title
+  #   content: 'value' # value from field 'value' as content
+  # refreshInterval: 10000 # Optional: time interval to refresh message
+  
+  # Real example using chucknorris.io for showing Chuck Norris facts as messages:
+  url: https://api.chucknorris.io/jokes/random
+  mapping:
+    title: Chuck Norris Says...
+    content: value
+  refreshInterval: 10000
+  #style: "is-warning"
+  #title: "Optional message!"
+  #icon: "fa fa-exclamation-triangle"
+  content: ''
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+
+  - name: Kiwi Labs
+    icon: fab fa-github
+    url: https://github.com/Diesel-Net
+
+  - name: Wikipedia
+    icon: fas fa-book
+    url: https://www.wikipedia.org/
+  # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+  # see url field and assets/additional-page.yml.dist used in this example:
+  # - name: Second page!
+  #   icon: fas fa-file-alt
+  #   url: "#additional-page"
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+
+  - name: Core Infrastructure
+    icon: fas fa-network-wired
+    items:
+
+      - name: Cloudflare
+        logo: assets/images/cloudflare.svg
+        subtitle: Domain Registrar, DNS, and Content Delivery Network
+        tag: cloudflare
+        url: https://dash.cloudflare.com
+
+      - name: Proxmox VE
+        logo: assets/images/pve.png
+        subtitle: Hyperconverged Infrastructure
+        tag: pve
+        url: https://pve.diesel.net:8006
+        target: "_blank" # optional html tag target attribute
+
+      - name: PfSense
+        logo: assets/images/pfsense.png
+        subtitle: Firewall, Router, Proxy, etc.
+        tag: pfsense
+        url: https://pfsense.diesel.net:8443
+
+      - name: Cisco IOS
+        logo: assets/images/cisco.png
+        subtitle: Managed Switch/Bridge
+        tag: switch
+        url: https://switch.kiwi-labs.net
+
+      - name: AsusWRT-Merlin
+        logo: assets/images/merlin.png
+        subtitle: Wireless Access Point
+        tag: wap
+        url: https://wap.diesel.net
+
+      - name: Synology DSM
+        logo: assets/images/synology.png
+        subtitle: Network Attached Storage
+        tag: nas
+        url: https://nas.kiwi-labs.net:5001
+
+  - name: Services
+    icon: fas fa-cloud
+    items:
+
+      - name: Plex
+        logo: assets/images/pms.png
+        subtitle: Stream Movies and TV
+        tag: plex
+        url: https://app.plex.tv
+
+  - name: Communities
+    icon: fas fa-users
+    items:
+
+      - name: GitHub
+        logo: assets/images/octocat.png
+        subtitle: Source Code Management
+        tag: github
+        url: https://github.com
+
+      - name: Reddit
+        logo: assets/images/reddit.png
+        subtitle: The Front Page of the Internet
+        tag: reddit
+        url: https://reddit.com
+
+  - name: Montoring
+    icon: fas fa-chart-area
+    items:
+
+      - name: ntopng
+        logo: assets/images/ntop.png
+        subtitle: Network Traffic Analysis and Flow Collection
+        tag: ntop
+        url: https://pfsense.diesel.net:3000/
+   
