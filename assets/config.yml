@@ -116,7 +116,7 @@ services:
         url: https://dash.cloudflare.com
 
       - name: Plex
-        logo: assets/images/plex.png
+        logo: assets/images/pms.png
         subtitle: Stream Movies and TV
         tag: plex
         url: https://app.plex.tv
