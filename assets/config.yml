@@ -56,7 +56,7 @@ colors:
     link-hover: "#363636"
     background-image: "assets/your/light/bg.png"
   dark:
-    highlight-primary: "#4a3418" ##474826
+    highlight-primary: "#2b2b2b" #4a3418 #474826
     highlight-secondary: "#474826" #2b2b2b
     highlight-hover: "#8cad27"
     background: "#131313"
