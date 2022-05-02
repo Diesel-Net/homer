@@ -78,7 +78,7 @@ links:
 services:
 
   - name: Core Infrastructure
-    icon: fas fa-cloud
+    icon: fas fa-network-wired
     items:
 
       - name: Proxmox VE
@@ -89,45 +89,45 @@ services:
 
       - name: PfSense
         logo: assets/images/pfsense.png
-        subtitle: Firewall & Router
+        subtitle: Firewall
         tag: pfsense
         url: https://pfsense.diesel.net:8443
 
       - name: Cisco SG250-08HP
-        logo: assets/images/switch.png
-        #icon: fas fa-switch
-        subtitle: Packet Switching
-        tag: asdf
+        logo: assets/images/cisco.png
+        subtitle: Packet Switch
+        tag: switch
         url: https://switch.kiwi-labs.net
 
-  - name: Hosted Services
-    icon: fas fa-network-wired
+      - name: RT-AX88U
+        logo: assets/images/cisco.png
+        subtitle: Wireless Access Point
+        tag: wap
+        url: https://wap.diesel.net
+
+  - name: External Services
+    icon: fas fa-cloud
     items:
 
-      - name: Proxmox Virtual Environment
-        logo: assets/images/pve.png
-        subtitle: Hypervisor
+      - name: Cloudflare
+        logo: assets/images/cloudflare.png
+        subtitle: Registrar, DNS, and Content Delivery Network
         tag: pve
-        url: https://pve.diesel.net:8006
+        url: https://dash.cloudflare.com
 
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: app
-        url: "#"
+      - name: Plex
+        logo: assets/images/plex.png
+        subtitle: Stream Movies and TV
+        tag: plex
+        url: https://app.plex.tv
 
   - name: Montoring
     icon: fas fa-chart-area
     items:
 
       - name: ntopng
-        logo: assets/images/pve.png
+        logo: assets/images/ntop.png
         subtitle: Network Traffic Analysis and Flow Collection
-        tag: pve
-        url: https://pve.diesel.net:8006
+        tag: ntop
+        url: https://pfsense.diesel.net:3000/
    
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: app
-        url: "#"
