@@ -181,6 +181,13 @@ services:
         url: https://drone.kiwi-labs.net
         target: "_blank" # open in new tab
 
+      - name: Nexus Repository Manager
+        logo: assets/images/nrm.png
+        subtitle: Artifact repository
+        tag: nexus
+        url: https://nexus.diesel.net
+        target: "_blank" # open in new tab
+
       - name: Plex
         logo: assets/images/pms.png
         subtitle: Stream Movies and TV
