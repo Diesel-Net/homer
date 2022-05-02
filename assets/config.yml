@@ -51,7 +51,7 @@ colors:
     text-header: "#424242"
     text-title: "#303030"
     text-subtitle: "#424242"
-    card-shadow: rgba(0, 0, 0, 0.4)
+    card-shadow: rgba(0, 0, 0, 0.8)
     link: "#000000"
     link-hover: "#b3dd45"
     background-image: ../assets/images/kiwi-labs-light-3.png
