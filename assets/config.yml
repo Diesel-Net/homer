@@ -10,8 +10,9 @@ logo: "assets/images/kiwi-labs.png"
 header: true # set false if you want to hide it.
 footer: |
   <p>
-    View on
+    
     <a href="https://github.com/Diesel-Net/homer">
+      View on &nbsp;
       <i class="fab fa-github-alt"></i>
     </a>
   </p>
