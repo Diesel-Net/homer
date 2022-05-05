@@ -150,6 +150,13 @@ services:
         url: https://wap.diesel.net
         target: "_blank" # open in new tab
 
+      - name: Arris Surfboard
+        logo: assets/images/arris.png
+        subtitle: Cable Modem
+        tag: modem
+        url: https://modem.diesel.net
+        target: "_blank" # open in new tab
+
       - name: Synology DSM
         logo: assets/images/synology.png
         subtitle: Network Attached Storage
