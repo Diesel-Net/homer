@@ -150,7 +150,7 @@ services:
         url: https://wap.diesel.net
         target: "_blank" # open in new tab
 
-      - name: Arris Surfboard
+      - name: Arris SURFboard
         logo: assets/images/arris.png
         subtitle: Cable Modem
         tag: modem
@@ -164,9 +164,9 @@ services:
         url: https://nas.kiwi-labs.net:5001
         target: "_blank" # open in new tab
 
-      - name: PR1500LCDN
+      - name: UPS Remote Management
         logo: assets/images/cyberpower.png
-        subtitle: uninterruptible Power Supply
+        subtitle: Uninterruptible Power Supply
         tag: ups
         url: https://ups.diesel.net
         target: "_blank" # open in new tab
