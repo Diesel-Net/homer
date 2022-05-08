@@ -164,6 +164,13 @@ services:
         url: https://nas.kiwi-labs.net:5001
         target: "_blank" # open in new tab
 
+      - name: PR1500LCDN
+        logo: assets/images/cyberpower.png
+        subtitle: uninterruptible Power Supply
+        tag: ups
+        url: https://ups.diesel.net
+        target: "_blank" # open in new tab
+
 
   - name: Tools & Monitoring
     icon: fas fa-chart-area
