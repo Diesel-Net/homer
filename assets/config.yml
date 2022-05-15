@@ -158,7 +158,7 @@ services:
         target: "_blank" # open in new tab
 
       - name: Synology DSM
-        logo: assets/images/synology.png
+        logo: assets/images/dsm.png
         subtitle: Network Attached Storage
         tag: nas
         url: https://nas.kiwi-labs.net:5001
