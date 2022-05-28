@@ -193,6 +193,9 @@ services:
       - name: Grafana
         logo: assets/images/grafana.png
         subtitle: Query, visualize, alert
+        tag: grafana
+        url: https://grafana.diesel.net
+        target: "_blank" # open in new tab
 
 
       # - name: ntopng
