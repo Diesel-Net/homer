@@ -190,6 +190,11 @@ services:
         url: https://nexus.diesel.net
         target: "_blank" # open in new tab
 
+      - name: Grafana
+        logo: assets/images/grafana.png
+        subtitle: Query, visualize, alert
+
+
       # - name: ntopng
       #   logo: assets/images/ntop.png
       #   subtitle: Traffic Analysis and Flow Collection
