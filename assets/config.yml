@@ -140,7 +140,7 @@ services:
         logo: assets/images/cisco.png
         subtitle: Managed Switch
         tag: switch
-        url: https://switch.kiwi-labs.net
+        url: https://switch.diesel.net
         target: "_blank" # open in new tab
 
       - name: AsusWRT-Merlin
