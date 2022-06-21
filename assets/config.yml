@@ -147,7 +147,7 @@ services:
         logo: assets/images/tplink.png
         subtitle: Managed L2 Switch
         tag: switch
-        url: https://tplink.switch.diesel.net
+        url: http://tplink.switch.diesel.net
         target: "_blank" # open in new tab
 
       - name: TP-Link EAP650
