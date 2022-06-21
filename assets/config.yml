@@ -171,13 +171,6 @@ services:
         url: https://modem.diesel.net
         target: "_blank" # open in new tab
 
-      - name: Synology DS920+
-        logo: assets/images/dsm.png
-        subtitle: Network Attached Storage
-        tag: nas
-        url: https://nas.kiwi-labs.net:5001
-        target: "_blank" # open in new tab
-
       - name: CyberPower PR1500LCDN
         logo: assets/images/cyberpower.png
         subtitle: Uninterruptible Power Supply
@@ -223,6 +216,14 @@ services:
   - name: Apps & Services
     icon: fas fa-cloud
     items:
+
+      - name: Synology DS920+
+        logo: assets/images/dsm.png
+        subtitle: Network Attached Storage
+        tag: nas
+        url: https://nas.kiwi-labs.net:5001
+        target: "_blank" # open in new tab
+
       - name: Bitwarden
         logo: assets/images/bitwarden.png
         subtitle: Password Manager
