@@ -129,42 +129,56 @@ services:
         url: https://pve.diesel.net:8006
         target: "_blank" # open in new tab
 
-      - name: PfSense
+      - name: pfSense
         logo: assets/images/pfsense.png
-        subtitle: Firewall, Router, Proxy, etc.
+        subtitle: Firewall, Router, DNS, VPN
         tag: pfsense
         url: https://pfsense.diesel.net:8443
         target: "_blank" # open in new tab
 
-      - name: Cisco IOS
+      - name: Cisco SG250-08HP
         logo: assets/images/cisco.png
-        subtitle: Managed Switch
+        subtitle: Managed L2/L3 Switch
         tag: switch
         url: https://switch.diesel.net
         target: "_blank" # open in new tab
 
-      - name: AsusWRT-Merlin
-        logo: assets/images/merlin.png
+      - name: TP-Link SG116E
+        logo: assets/images/tplink.png
+        subtitle: Managed L2 Switch
+        tag: switch
+        url: https://tplink.switch.diesel.net
+        target: "_blank" # open in new tab
+
+      - name: TP-Link EAP650
+        logo: assets/images/omadapng
         subtitle: Wireless Access Point
         tag: wap
         url: https://wap.diesel.net
         target: "_blank" # open in new tab
 
-      - name: Arris SURFboard
+      - name: Asus RT-AX88U
+        logo: assets/images/merlin.png
+        subtitle: Wireless Media Bridge
+        tag: bridge
+        url: https://bridge.diesel.net
+        target: "_blank" # open in new tab
+
+      - name: Arris SURFboard SB8200
         logo: assets/images/arris.png
         subtitle: Cable Modem
         tag: modem
         url: https://modem.diesel.net
         target: "_blank" # open in new tab
 
-      - name: Synology DSM
+      - name: Synology DS920+
         logo: assets/images/dsm.png
         subtitle: Network Attached Storage
         tag: nas
         url: https://nas.kiwi-labs.net:5001
         target: "_blank" # open in new tab
 
-      - name: UPS Remote Management
+      - name: CyberPower PR1500LCDN
         logo: assets/images/cyberpower.png
         subtitle: Uninterruptible Power Supply
         tag: ups
