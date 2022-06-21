@@ -151,7 +151,7 @@ services:
         target: "_blank" # open in new tab
 
       - name: TP-Link EAP650
-        logo: assets/images/omada.png
+        logo: assets/images/tplink2.png
         subtitle: Wireless Access Point
         tag: wap
         url: https://wap.diesel.net
