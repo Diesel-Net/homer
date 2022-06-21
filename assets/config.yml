@@ -140,7 +140,7 @@ services:
         logo: assets/images/cisco.png
         subtitle: Managed L2/L3 Switch
         tag: switch
-        url: https://switch.diesel.net
+        url: https://cisco.switch.diesel.net
         target: "_blank" # open in new tab
 
       - name: TP-Link SG116E
