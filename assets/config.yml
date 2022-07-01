@@ -157,12 +157,12 @@ services:
         url: https://wap.diesel.net
         target: "_blank" # open in new tab
 
-      - name: Asus RT-AX88U
-        logo: assets/images/merlin.png
-        subtitle: Wireless Media Bridge
-        tag: bridge
-        url: https://bridge.diesel.net
-        target: "_blank" # open in new tab
+      # - name: Asus RT-AX88U
+      #   logo: assets/images/merlin.png
+      #   subtitle: Wireless Media Bridge
+      #   tag: bridge
+      #   url: https://bridge.diesel.net
+      #   target: "_blank" # open in new tab
 
       - name: Arris SURFboard SB8200
         logo: assets/images/arris.png
