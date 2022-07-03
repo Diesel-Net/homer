@@ -204,6 +204,13 @@ services:
         url: https://grafana.diesel.net
         target: "_blank" # open in new tab
 
+      - name: Draw.io
+        logo: assets/images/drawio.png
+        subtitle: Diagrams & Flowcharts
+        tag: drawio
+        url: https://drawio.diesel.net
+        target: "_blank" # open in new tab
+
 
       # - name: ntopng
       #   logo: assets/images/ntop.png
