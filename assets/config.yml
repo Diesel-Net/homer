@@ -168,14 +168,14 @@ services:
         logo: assets/images/arris.png
         subtitle: Cable Modem
         tag: modem
-        url: https://modem.kiwi-labs.net
+        url: https://modem.diesel.net
         target: "_blank" # open in new tab
 
       - name: CyberPower PR1500LCDN
         logo: assets/images/cyberpower.png
         subtitle: Uninterruptible Power Supply
         tag: ups
-        url: https://ups.kiwi-labs.net
+        url: https://ups.diesel.net
         target: "_blank" # open in new tab
 
 
