@@ -242,7 +242,7 @@ services:
         logo: assets/images/pms.png
         subtitle: Stream Movies and TV
         tag: plex
-        url: https://app.plex.tv
+        url: https://plex.kiwi-labs.net
         target: "_blank" # open in new tab
 
       - name: Handbrake
