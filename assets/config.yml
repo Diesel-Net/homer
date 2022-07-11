@@ -228,7 +228,7 @@ services:
         logo: assets/images/dsm.png
         subtitle: Network Attached Storage
         tag: nas
-        url: https://nas.kiwi-labs.net:5001
+        url: https://nas.kiwi-labs.net
         target: "_blank" # open in new tab
 
       - name: Bitwarden
