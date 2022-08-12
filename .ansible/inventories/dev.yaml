@@ -1,10 +1,14 @@
 all:
   children:
 
-    handbrake:
+    swarm_manager:
       hosts:
-        tools.diesel.net:
+        dev.diesel.net:
 
   vars:
+
+    hosts: 
+      - home.dev.diesel.net
+
     ansible_user: automation
     ansible_python_interpreter: /usr/bin/python3

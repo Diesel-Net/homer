@@ -1,12 +1,12 @@
-- hosts: handbrake
+- hosts: swarm_manager
   roles:
-    - common
+    - application
     - traefik
 
   tasks:
 
     - include_role:
-        name: common
+        name: application
         tasks_from: make_config_dir
 
     - name: 'Sync custom assets into {{ config_dir }}'
@@ -21,5 +21,3 @@
     - include_role:
         name: docker
         tasks_from: stack_deploy
-      vars:
-        docker_compose_template: docker-compose.yaml.j2

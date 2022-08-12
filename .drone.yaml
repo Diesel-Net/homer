@@ -1,7 +1,7 @@
 ---
 kind: pipeline
 type: docker
-name: deploy
+name: Deploy Homer (dev)
 
 clone:
   depth: 1
@@ -11,18 +11,44 @@ concurrency:
 
 steps:
   - name: deploy Homer dashboard
-    image: docker.nexus.diesel.net/drone-ansible:5.3.0
-    environment:
-      ANSIBLE_CONFIG: .ansible/ansible.cfg
+    image: docker.nexus.diesel.net/drone-ansible:2.13
     settings:
       galaxy: .ansible/roles/requirements.yaml
-      inventory: .ansible/inventories/production
+      inventory: .ansible/inventories/dev.yaml
       playbook: .ansible/deploy.yaml
       private_key:
         from_secret: automation_id_rsa
       vault_password:
         from_secret: ansible_vault_password
-      extra_vars: version=production
+
+trigger:
+  event:
+    - push
+  branch:
+    - development
+
+---
+kind: pipeline
+type: docker
+name: Deploy Homer (prod)
+
+clone:
+  depth: 1
+
+concurrency:
+  limit: 1
+
+steps:
+  - name: deploy Homer dashboard
+    image: docker.nexus.diesel.net/drone-ansible:2.13
+    settings:
+      galaxy: .ansible/roles/requirements.yaml
+      inventory: .ansible/inventories/prod.yaml
+      playbook: .ansible/deploy.yaml
+      private_key:
+        from_secret: automation_id_rsa
+      vault_password:
+        from_secret: ansible_vault_password
 
 trigger:
   event:

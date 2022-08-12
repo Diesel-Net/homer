@@ -6,7 +6,7 @@ services:
     environment:
       - INIT_ASSETS=0
     volumes:
-      - {{ localtime_file }}:/etc/localtime
+      - /etc/localtime:/etc/localtime
       - {{ config_dir }}/:/www/assets:r
      
     networks:
