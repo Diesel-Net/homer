@@ -28,3 +28,4 @@
     - include_role:
         name: docker
         tasks_from: stack_deploy
+      become: yes
