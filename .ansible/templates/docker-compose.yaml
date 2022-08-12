@@ -7,7 +7,7 @@ services:
       - INIT_ASSETS=0
     volumes:
       - /etc/localtime:/etc/localtime
-      - {{ config_dir }}/:/www/assets:r
+      - {{ config_dir }}/assets/:/www/assets:r
      
     networks:
       - {{ traefik_network }}
