@@ -9,6 +9,13 @@
         name: application
         tasks_from: make_config_dir
 
+    - name: Set file permissions on '{{ confi_dir }}'
+      file:
+        path: '{{ config_dir }}'
+        owner: 911
+        group: 911
+      become: yes
+
     - name: 'Sync custom assets into {{ config_dir }}'
       synchronize:
         mode: push
