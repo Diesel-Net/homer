@@ -1,14 +1,19 @@
-- name: application
-  scm: git
-  src: "git@github.com:Diesel-Net/ansible-role-application.git"
-  version: 2.0.0
+roles:
+  - name: application
+    scm: git
+    src: "git@github.com:Diesel-Net/ansible-role-application.git"
+    version: 2.0.0
 
-- name: docker
-  scm: git
-  src: "git@github.com:Diesel-Net/ansible-role-docker.git"
-  version: 2.0.0
+  - name: docker
+    scm: git
+    src: "git@github.com:Diesel-Net/ansible-role-docker.git"
+    version: 2.0.0
 
-- name: traefik
-  scm: git
-  src: "git@github.com:Diesel-Net/ansible-role-traefik.git"
-  version: 2.0.0
+  - name: traefik
+    scm: git
+    src: "git@github.com:Diesel-Net/ansible-role-traefik.git"
+    version: 2.0.0
+
+collections:
+
+  - name: ansible.posix
