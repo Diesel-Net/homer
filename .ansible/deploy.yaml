@@ -1,25 +1,31 @@
-- hosts: handbrake
+- hosts: swarm_manager
   roles:
-    - common
+    - application
     - traefik
 
   tasks:
 
     - include_role:
-        name: common
+        name: application
         tasks_from: make_config_dir
 
-    - name: 'Sync custom assets into {{ config_dir }}'
+    - name: Create subdirectory for homer config
+      file: 
+        path: '{{ config_dir }}/assets'
+        state: directory
+        group: 911
+        owner: 911
+      become: yes
+
+    - name: 'Sync custom assets into {{ config_dir }}/assets'
       synchronize:
         mode: push
         dirs: yes
         delete: yes
         src: '{{ playbook_dir }}/../assets/'
-        dest: '{{ config_dir }}' 
+        dest: '{{ config_dir }}/assets/' 
       become: yes
 
     - include_role:
         name: docker
         tasks_from: stack_deploy
-      vars:
-        docker_compose_template: docker-compose.yaml.j2
