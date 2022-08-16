@@ -122,18 +122,11 @@ services:
         url: https://dash.cloudflare.com
         target: "_blank" # open in new tab
 
-      - name: Proxmox VE (nuc9pro)
+      - name: Proxmox VE
         logo: assets/images/pve.png
         subtitle: Hyperconverged Infrastructure
         tag: pve
-        url: https://nuc9pro.diesel.net:8006
-        target: "_blank" # open in new tab
-
-      - name: Proxmox VE (fw6d)
-        logo: assets/images/pve.png
-        subtitle: Hyperconverged Infrastructure
-        tag: pve
-        url: https://fw6d.diesel.net:8006
+        url: https://pve.diesel.net:8006
         target: "_blank" # open in new tab
 
       - name: pfSense
