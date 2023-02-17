@@ -143,7 +143,7 @@ services:
         url: https://cisco-switch.kiwi-labs.net
         target: "_blank" # open in new tab
 
-      - name: TP-Link SG116E
+      - name: TP-Link SG3428X
         logo: assets/images/tplink.png
         subtitle: Managed L2 Switch
         tag: switch
