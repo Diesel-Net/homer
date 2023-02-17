@@ -135,19 +135,19 @@ services:
         tag: pfsense
         url: https://pfsense.diesel.net:8443
         target: "_blank" # open in new tab
+        
+      - name: TP-Link SG3428X
+        logo: assets/images/tplink.png
+        subtitle: Managed ToR Switch
+        tag: switch
+        url: https://tplink-switch.kiwi-labs.net
+        target: "_blank" # open in new tab
 
       - name: Cisco SG250-08HP
         logo: assets/images/cisco.png
-        subtitle: Managed L2/L3 Switch
+        subtitle: Managed PoE Switch
         tag: switch
         url: https://cisco-switch.kiwi-labs.net
-        target: "_blank" # open in new tab
-
-      - name: TP-Link SG3428X
-        logo: assets/images/tplink.png
-        subtitle: Managed L2 Switch
-        tag: switch
-        url: https://tplink-switch.kiwi-labs.net
         target: "_blank" # open in new tab
 
       - name: TP-Link EAP650
