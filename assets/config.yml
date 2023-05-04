@@ -245,6 +245,13 @@ services:
         url: https://plex.kiwi-labs.net
         target: "_blank" # open in new tab
 
+      - name: Pterodactyl
+        logo: assets/images/pterodactyl_2.png
+        subtitle: Game Server Panel
+        tag: pterodactyl
+        url: https://pterodactyl.diesel.net
+        target: "_blank" # open in new tab
+
       - name: Handbrake
         logo: assets/images/handbrake.png
         subtitle: Video Trancoder
