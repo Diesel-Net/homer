@@ -211,15 +211,6 @@ services:
         url: https://drawio.diesel.net
         target: "_blank" # open in new tab
 
-
-      # - name: ntopng
-      #   logo: assets/images/ntop.png
-      #   subtitle: Traffic Analysis and Flow Collection
-      #   tag: ntop
-      #   url: https://pfsense.diesel.net:3000/
-      #   target: "_blank" # open in new tab
-
-
   - name: Apps & Services
     icon: fas fa-cloud
     items:
@@ -257,13 +248,6 @@ services:
         subtitle: Video Trancoder
         tag: handbrake
         url: https://handbrake.diesel.net
-        target: "_blank" # open in new tab
-
-      - name: phpLDAPadmin
-        logo: assets/images/phpldapadmin.png
-        subtitle: Web-based LDAP client
-        tag: ldap
-        url: https://ldap.diesel.net
         target: "_blank" # open in new tab
 
 
