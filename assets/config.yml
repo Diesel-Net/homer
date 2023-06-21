@@ -287,24 +287,6 @@ services:
         url: https://traefik.dev.diesel.net
         target: "_blank" # open in new tab  
 
-  - name: Test
-    icon: fas fa-vial
-    items:
-
-      - name: kiwi-labs.net
-        logo: assets/images/kiwi-labs.png
-        subtitle: test.diesel.net
-        tag: kiwi-labs
-        url: https://test.diesel.net
-        target: "_blank" # open in new tab
-
-      - name: Traefik
-        logo: assets/images/traefik.png
-        subtitle: Reverse Proxy
-        tag: traefik
-        url: https://traefik.test.diesel.net
-        target: "_blank" # open in new tab  
-
   - name: Production
     icon: fas fa-industry
     items:
