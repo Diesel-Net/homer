@@ -7,9 +7,7 @@ all:
 
   vars:
 
-    hosts: 
-      - diesel.net
-      - home.diesel.net
+    host: diesel.net
     
     ansible_user: automation
     ansible_python_interpreter: /usr/bin/python3
