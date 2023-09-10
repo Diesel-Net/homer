@@ -140,7 +140,7 @@ services:
         logo: assets/images/tplink.png
         subtitle: Managed ToR Switch
         tag: switch
-        url: https://tplink-switch.kiwi-labs.net
+        url: https://tplink.switch.kiwi-labs.net
         target: "_blank" # open in new tab
 
       - name: Cisco SG250-08HP
