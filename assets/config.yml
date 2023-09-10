@@ -147,7 +147,7 @@ services:
         logo: assets/images/cisco.png
         subtitle: Managed PoE Switch
         tag: switch
-        url: https://cisco-switch.kiwi-labs.net
+        url: https://cisco.switch.kiwi-labs.net
         target: "_blank" # open in new tab
 
       - name: TP-Link EAP650
