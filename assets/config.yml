@@ -140,14 +140,14 @@ services:
         logo: assets/images/cisco.png
         subtitle: Managed L2/L3 Switch
         tag: switch
-        url: https://cisco-switch.kiwi-labs.net
+        url: https://cisco.switch.kiwi-labs.net
         target: "_blank" # open in new tab
 
       - name: TP-Link SG116E
         logo: assets/images/tplink.png
         subtitle: Managed L2 Switch
         tag: switch
-        url: https://tplink-switch.kiwi-labs.net
+        url: https://tplink.switch.kiwi-labs.net
         target: "_blank" # open in new tab
 
       - name: TP-Link EAP650
