@@ -271,18 +271,11 @@ services:
     icon: fas fa-industry
     items:
 
-      - name: kiwi-labs.net (external)
+      - name: kiwi-labs.net
         logo: assets/images/kiwi-labs.png
         subtitle: kiwi-labs.net
         tag: kiwi-labs
         url: https://kiwi-labs.net
-        target: "_blank" # open in new tab
-
-      - name: kiwi-labs.net (internal)
-        logo: assets/images/kiwi-labs.png
-        subtitle: prod.diesel.net
-        tag: kiwi-labs
-        url: https://prod.diesel.net
         target: "_blank" # open in new tab
 
       - name: Traefik
