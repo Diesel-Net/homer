@@ -157,20 +157,6 @@ services:
         url: https://ap.kiwi-labs.net
         target: "_blank" # open in new tab
 
-      # - name: Asus RT-AX88U
-      #   logo: assets/images/merlin.png
-      #   subtitle: Wireless Media Bridge
-      #   tag: bridge
-      #   url: https://bridge.diesel.net
-      #   target: "_blank" # open in new tab
-
-      - name: Arris SURFboard SB8200
-        logo: assets/images/arris.png
-        subtitle: Cable Modem
-        tag: modem
-        url: https://modem.kiwi-labs.net
-        target: "_blank" # open in new tab
-
       - name: CyberPower PR1500LCDN
         logo: assets/images/cyberpower.png
         subtitle: Uninterruptible Power Supply
